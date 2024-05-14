@@ -1,0 +1,24 @@
+h1{
+    color: brown;
+    border-left: thick solid brown;
+}
+
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#kh1, #kh2, #kh3, #kh4, #kh5, #kh6{
+    padding: 10px;
+    border: 1px #ddd;
+    text-align: left;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    margin-right: 10px;
+}
